@@ -23,7 +23,7 @@ First you will need to import the MicroPython Pin and SoftI2C modules to use the
 from machine import Pin, SoftI2C
 import ds1307
 ```
-Once this is done you can construct your `SoftI2C` object and  your `ds1307.DS1307` object
+Once this is done you can construct a `SoftI2C` object and a `ds1307.DS1307` object
 ```
 # uses SoftI2C class and pins for Raspberry Pi pico 
 i2c0 = SoftI2C(scl=Pin(1), sda=Pin(0), freq=100000)
